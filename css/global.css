@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #F5F5F4;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #222629;
+}/*# sourceMappingURL=global.css.map */

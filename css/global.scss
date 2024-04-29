@@ -1,0 +1,14 @@
+@use './partials/variables' as *;
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+body {
+    color: $primary-text;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    background-color: $primary-background;
+  }

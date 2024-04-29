@@ -1,0 +1,119 @@
+@use './partials/variables' as *;
+.header
+{
+  
+    background-image: url('../assets/quiz-header.png');
+        background-position: center;
+        background-size: contain;
+        height: 12rem;
+}
+.trivia
+{
+    background-color: $primary-background;
+    text-align: center;
+    padding-left:10rem;
+    padding-right:10rem;
+    padding-top:2rem;
+    padding-bottom:5rem;
+   
+    position: relative;
+   
+    
+    &__img
+    {
+        width:10rem;
+        height:10rem;
+        
+        position:absolute;
+       right:2rem;
+       bottom:2rem;
+    }
+   
+
+    &__title
+    {
+       color:$primary-accent;
+        font-size:3.3rem;
+        font-weight:700;
+        
+        text-shadow: 0.2rem 0.2rem 0.25rem rgba(249, 244, 244, 0.5);
+        font-weight: 600;
+         font-style:normal;
+       
+    }
+    &__para
+    {
+        font-size:1.4rem;
+        font-family:'Barlow';
+        line-height: 2rem;
+        margin-top: 2rem;
+        text-shadow: 0.125rem 0.125rem 0.25rem rgb(4, 8, 0);
+        
+    }
+    &__para2
+    {
+        
+        font-size:1.8rem;
+        line-height:2rem;
+        margin-top:2rem;
+        text-shadow: 0.2rem 0.2rem 0.25rem rgba(7, 19, 3, 0.5);
+        font-weight: 300;
+        color:rgb(250, 249, 248);
+    }
+    &__btn
+    {
+        background-color: #86c232;
+        color: white;
+        font-size:1.1rem;
+        padding: 0.8rem 1.25rem;
+        border-radius:8px;
+        margin-top:2rem;
+        text-shadow: 0.125rem 0.125rem 0.25rem black; 
+        border: none;
+        text-decoration: none;
+        margin-left:2rem;
+       
+    }
+    &__btn:hover
+    {
+        background-color: #61892F;
+        font-size:1.2rem;
+        
+    }
+    
+}
+.footer
+{
+    width:100%;
+    background-color:#6B6E70;
+    font-weight: 300;
+    color: white;
+    text-shadow: 0.2rem 0.2rem 0.25rem rgba(14, 36, 3, 0.687);
+    line-height:2rem;
+    font-size:0.8rem;
+    text-align:center;
+    padding-bottom:1.5rem;
+    padding-top:1.5rem;
+
+    
+}
+.instruction
+{
+    text-align:center; 
+    &__title
+    {
+        color:$primary-accent;
+        font-size:2rem;
+        font-weight:700;
+        font-weight: 600;
+         font-style:normal;
+    }
+    &__list
+    {
+        margin-bottom:1rem;
+        text-align:left;
+        margin-left:30%;
+        margin-top:4%;
+        li{line-height:2.5rem;}
+    }
+}
